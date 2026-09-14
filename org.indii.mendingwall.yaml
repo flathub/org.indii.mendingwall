@@ -1,6 +1,6 @@
 id: org.indii.mendingwall
 runtime: org.gnome.Platform
-runtime-version: '49'
+runtime-version: '50'
 sdk: org.gnome.Sdk
 command: mendingwall
 
@@ -60,7 +60,6 @@ modules:
     config-opts:
       - -Dbash_completion=false
       - -Dman=false
-      - -Dsystemduserunitdir=' '
     cleanup:
       - /include
       - /lib/pkgconfig
@@ -78,4 +77,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/lawmurray/mendingwall.git
-        tag: v0.3.8
+        tag: v0.3.9
