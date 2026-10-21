@@ -1,6 +1,6 @@
 id: org.indii.mendingwall
 runtime: org.gnome.Platform
-runtime-version: '50'
+runtime-version: '51'
 sdk: org.gnome.Sdk
 command: mendingwall
 
@@ -69,6 +69,7 @@ modules:
       - type: git
         url: https://gitlab.gnome.org/GNOME/dconf
         tag: 0.40.0
+        commit: 4c0a26052efafae923eba42d14c5cb88da745de2
 
   - name: mendingwall
     buildsystem: meson
@@ -77,4 +78,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/lawmurray/mendingwall.git
-        tag: v0.3.9
+        tag: v0.3.10
+        commit: 9f72b1d8bdeeebb01c670a1aa2946d8d4ba70d64
