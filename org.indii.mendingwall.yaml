@@ -69,6 +69,7 @@ modules:
       - type: git
         url: https://gitlab.gnome.org/GNOME/dconf
         tag: 0.40.0
+        commit: 4c0a2605
 
   - name: mendingwall
     buildsystem: meson
@@ -78,3 +79,4 @@ modules:
       - type: git
         url: https://github.com/lawmurray/mendingwall.git
         tag: v0.3.10
+        commit: 9f72b1d
